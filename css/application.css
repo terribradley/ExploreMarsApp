@@ -370,15 +370,14 @@ textarea {
 
 section {
   display: flex;
-  width: 100%;
   background-color: yellow;
-  width: 95vw;
-  margin: 0 2%; }
+  width: 80%;
+  margin: 2% 10%; }
   section .text {
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding: 5%; }
+    padding: 1%; }
     section .text h1 {
       font-size: 3.5em;
       font-family: "Fjalla One", sans-serif;
@@ -389,7 +388,6 @@ section {
       margin: 10px; }
   section .img-examples {
     width: 50%;
-    padding: 1%;
     display: flex;
     justify-content: space-around;
     align-items: center; }
@@ -469,7 +467,7 @@ section {
       margin-bottom: 1%; }
 
 nav {
-  position: absolute;
+  position: fixed;
   top: 40px;
   right: 10px; }
 
@@ -501,25 +499,25 @@ li:first-child:after {
   display: none; }
 
 li:nth-child(1) {
-  background-color: #99D2B1;
+  background-color: #962C09;
   transform: translate(0, -20%);
   z-index: 4;
   transition-duration: 0.12s; }
 
 li:nth-child(2) {
-  background-color: #C6F0D7;
+  background-color: #A33510;
   transform: translate(20%, 0);
   z-index: 3;
   transition-duration: 0.24s; }
 
 li:nth-child(3) {
-  background-color: #DEECE4;
+  background-color: #B83C12;
   transform: translate(0, 20%);
   z-index: 2;
   transition-duration: 0.36s; }
 
 li:nth-child(4) {
-  background-color: #F3FFF8;
+  background-color: #E64B17;
   transform: translate(-20%, 0);
   z-index: 1;
   transition-duration: 0.48s; }

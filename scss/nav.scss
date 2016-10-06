@@ -3,7 +3,7 @@ $offsetAmount: 1.1;
 $transitionTime: 0.12s;
 $text-color: #B64F39;
 nav {
-  position: absolute;
+  position: fixed;
   top: 40px;
   right: 10px;
 }
@@ -40,7 +40,7 @@ li:first-child:after{
   display: none;
 }
 $offset:20%;
-$colors: #99D2B1, #C6F0D7, #DEECE4, #F3FFF8;
+$colors: #962C09, #A33510, #B83C12, #E64B17;
 $transforms:  translate(0,-$offset),
               translate($offset,0),
               translate(0,$offset),

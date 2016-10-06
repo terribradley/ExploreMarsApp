@@ -1,5 +1,5 @@
 nav {
-  position: absolute;
+  position: fixed;
   top: 40px;
   right: 10px; }
 
@@ -31,25 +31,25 @@ li:first-child:after {
   display: none; }
 
 li:nth-child(1) {
-  background-color: #99D2B1;
+  background-color: #962C09;
   transform: translate(0, -20%);
   z-index: 4;
   transition-duration: 0.12s; }
 
 li:nth-child(2) {
-  background-color: #C6F0D7;
+  background-color: #A33510;
   transform: translate(20%, 0);
   z-index: 3;
   transition-duration: 0.24s; }
 
 li:nth-child(3) {
-  background-color: #DEECE4;
+  background-color: #B83C12;
   transform: translate(0, 20%);
   z-index: 2;
   transition-duration: 0.36s; }
 
 li:nth-child(4) {
-  background-color: #F3FFF8;
+  background-color: #E64B17;
   transform: translate(-20%, 0);
   z-index: 1;
   transition-duration: 0.48s; }
