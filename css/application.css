@@ -392,15 +392,6 @@ section {
     justify-content: space-around;
     align-items: center; }
 
-#overview {
-  height: 2px; }
-
-#context {
-  height: 20px; }
-
-#process, #solution, #result {
-  height: 25px; }
-
 .overview {
   display: flex;
   flex-direction: column;
@@ -492,8 +483,7 @@ li {
   cursor: pointer;
   text-align: center;
   line-height: 70px;
-  color: white;
-  color: transparent; }
+  color: white; }
 
 li:first-child:after {
   display: none; }
@@ -524,8 +514,6 @@ li:nth-child(4) {
 
 ul:hover {
   height: 308px; }
-  ul:hover li {
-    color: black; }
   ul:hover li:nth-child(1) {
     transform: translate(0, 0%); }
     ul:hover li:nth-child(1):hover {

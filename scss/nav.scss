@@ -31,8 +31,6 @@ li {
   text-align: center;
   line-height: $size;
   color: white;
-
-  color: transparent;
 }
 
 
@@ -58,10 +56,6 @@ $transforms:  translate(0,-$offset),
 
 ul:hover{
   height: (4*$offsetAmount) * $size;
-
-  li {
-    color: black;
-  }
 
 
   @for $i from 1 through 4{
