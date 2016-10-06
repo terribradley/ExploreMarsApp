@@ -1,12 +1,11 @@
 @import "normalize";
 @import "library/bourbon/bourbon";
 @import "main-content";
-@import "paper";
 @import "nav";
 @import "https://fonts.googleapis.com/css?family=Fjalla+One|Roboto|Roboto+Condensed";
 
 body {
-  background-color: #faf6f0;
+  background-color: white;
 }
 header {
   height: 100vh;

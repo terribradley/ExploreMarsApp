@@ -1,37 +1,28 @@
 section {
   display: flex;
-  flex-direction: column;
   width: 100%;
-  background-color: #FBCF9C;
+  background-color: yellow;
   width: 95vw;
   margin: 0 2%; }
-  section .icon {
-    width: 98%;
+  section .text {
     display: flex;
-    justify-content: center;
-    padding: 2% 0; }
-  section .content {
-    width: 100%;
-    display: flex; }
-    section .content .text {
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-      padding: 5%; }
-      section .content .text h1 {
-        font-size: 3.5em;
-        font-family: "Fjalla One", sans-serif;
-        margin-bottom: 2%; }
-      section .content .text p {
-        font-size: 1.4em;
-        font-family: 'Roboto', sans-serif;
-        margin: 10px; }
-    section .content .img-examples {
-      width: 50%;
-      padding: 1%;
-      display: flex;
-      justify-content: space-around;
-      align-items: center; }
+    flex-direction: column;
+    width: 50%;
+    padding: 5%; }
+    section .text h1 {
+      font-size: 3.5em;
+      font-family: "Fjalla One", sans-serif;
+      margin-bottom: 2%; }
+    section .text p {
+      font-size: 1.4em;
+      font-family: 'Roboto', sans-serif;
+      margin: 10px; }
+  section .img-examples {
+    width: 50%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
 
 #overview {
   height: 2px; }
@@ -58,13 +49,9 @@ section {
     text-align: center;
     font-family: 'Roboto', sans-serif; }
 
-.context {
-  background-color: #faf6f0;
+.concept {
+  background-color: red;
   height: 94vh; }
-
-.process, .result {
-  height: 94vh;
-  background-color: #E3DFD9; }
 
 .result {
   margin-bottom: 5%; }
@@ -74,15 +61,41 @@ section {
     margin: 2%; }
 
 .solution {
-  height: 94vh;
-  background-color: #faf6f0; }
-  .solution .text-bottom {
+  height: 105vh;
+  background-color: green;
+  display: flex;
+  flex-direction: column; }
+  .solution .text-mid {
+    display: flex; }
+    .solution .text-mid h1 {
+      width: 100%;
+      font-size: 3.5em;
+      font-family: "Fjalla One", sans-serif;
+      margin-bottom: 2%; }
+    .solution .text-mid p {
+      font-size: 1.4em;
+      font-family: 'Roboto', sans-serif;
+      margin: 10px; }
+    .solution .text-mid .img-examples {
+      width: 50%;
+      padding: 1%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+  .solution .text-top, .solution .text-bottom {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center; }
-    .solution .text-bottom h1 {
+    .solution .text-top h1, .solution .text-bottom h1 {
+      font-size: 3.5em;
+      font-family: "Fjalla One", sans-serif;
+      margin: 2%; }
+    .solution .text-top p, .solution .text-bottom p {
+      font-size: 1.4em;
+      font-family: 'Roboto', sans-serif;
+      margin: 10px; }
+    .solution .text-top h1, .solution .text-bottom h1 {
       margin-bottom: 1%; }
 
 /*# sourceMappingURL=main-content.css.map */
